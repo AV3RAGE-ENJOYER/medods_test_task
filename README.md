@@ -28,3 +28,10 @@ go build main.go
 ```bash
 go test -v ./tests
 ```
+
+## Контакты
+
+Домбровский Андрей
+**Телефон: +79663838555**
+**[Telegram](https://t.me/dombrovskii_andrei)**
+**[Резюме на HeadHunter](https://hh.ru/resume/0f7bc270ff0d56019a0039ed1f737977446667?hhtmFrom=resume_list)**
