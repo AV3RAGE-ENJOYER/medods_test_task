@@ -6,8 +6,8 @@
 
 ### Docker
 ```bash
-git clone https://github.com/AV3RAGE-ENJOYER/medods-test-task
-cd medods-test-task
+git clone https://github.com/AV3RAGE-ENJOYER/medods_test_task
+cd medods_test_task
 docker compose up -d
 ```
 
@@ -16,8 +16,8 @@ docker compose up -d
 Для корректной работы приложения нужен работающий сервер **PostgreSQL** на **localhost**. Также нужно изменить хост в переменной **POSTGRES_URL** в файле [config.env](config.env)  
 
 ```bash
-git clone https://github.com/AV3RAGE-ENJOYER/medods-test-task
-cd medods-test-task
+git clone https://github.com/AV3RAGE-ENJOYER/medods_test_task
+cd medods_test_task
 go mod download && go mod verify
 go build main.go
 ./main
